@@ -11,6 +11,14 @@ public class StudentService {
     }
 
     public void addStudent(){
+          Student student=new Student();
+          List<Student>studentList=new ArrayList<student>();
+          student.setStudentId("007");
+          student.setName("Name");
+          student.startDate("01/08/2023");
+          student.setEndDate("08/01/2026");
+          studentList.add(student)
+
 
     }
 
